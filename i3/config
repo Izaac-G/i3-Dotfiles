@@ -1,0 +1,35 @@
+include $HOME/.config/i3/rules.conf
+include $HOME/.config/i3/workspaces.conf
+
+set $mod Mod4
+font pango:monospace 10
+floating_modifier $mod
+
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+
+exec --no-startup-id dex --autostart --environment i3
+#exec --no-startup-id picom -b 
+exec --no-startup-id ~/.config/polybar/launch.sh &
+exec --no-startup-id nitrogen --restore
+exec --no-startup-id xrandr --output Virtual-1 --mode 1920x1080
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+
+# move the currently focused window to the scrathpad
+bindsym $mod+Shift+minus move scratchpad
+
+# Show the next scratchpad window or hide the focused scratchpad
+bindsym $mod+minus scratchpad show
+
+bindsym $mod+m [title="fm"] scratchpad show; [instance="fm"] 
+bindsym $mod+p [title="pycalc"] scratchpad show; [instance="pycalc"]
+bindsym $mod+t [title="alacterm"] scratchpad show; [instance="alacterm"] 
+
+exec --no-startup-id alacritty -t fm -e mc
+exec --no-startup-id alacritty -t pycalc -e python3 -I
+exec --no-startup-id alacritty -t alacterm
+
+for_window [title="alacterm"] move scratchpad
+for_window [title="pycalc"] move scratchpad
+for_window [title="fm"] move scratchpad
