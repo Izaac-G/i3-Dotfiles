@@ -24,7 +24,6 @@ Howdy! Here are some simple configs and software recommendations that I use when
 
 
 ## Key Bindings
-Some basic keybindings for the programs in this (non-exhaustive)
 
 ### i3wm keybindings
 For modifications and further keybindings I suggest visiting .config/i3/ 
@@ -48,7 +47,7 @@ For modifications and further keybindings I suggest visiting .config/i3/
 
 
 ### NeoVim keybindings
-I will not be listing all of vims hotkeys, as these can be learned online or with tools like vimtutor. To search keymaps in vim we can use the command :Telescope keymaps. Here are some of the hotkeys I use the most: 
+I will not be listing all of vim's hotkeys, as these can be learned online or with tools like vimtutor. To search keymaps in vim we can use the command :Telescope keymaps. Here are some of the hotkeys I use the most: 
 
 - `space`: The leader key for accessing convenience commands. This key will be addressed as leader for the sake of these hotkeys 
 - `leader + sf`: [S]earch [F]iles, using telescope for file preview  
@@ -59,7 +58,7 @@ I will not be listing all of vims hotkeys, as these can be learned online or wit
 - `leader + gI`: [G]oto [I]mplementation, lists implementations for word under the cursor 
 
 ### Midnight Commander keybindings
-Midnight Commander has tons of functionality built into it's key bindings, due to the nature of the program I will list some of them that I find most convenient. A more detailed list can be found [here](https://cheatography.com/brechtm/cheat-sheets/midnight-commander/) or on Midnight Commanders official [website](https://midnight-commander.org/wiki/doc/filePanels/hotkeys) documentation.(keep in mind, any modifications made to midnight commander can be saved for next session in Options>Save setup) 
+Midnight Commander has tons of functionality built into it's key bindings, due to the nature of the program I will list some of them that I find most convenient. A more detailed list can be found [here](https://cheatography.com/brechtm/cheat-sheets/midnight-commander/) or on Midnight Commanders official [website](https://midnight-commander.org/wiki/doc/filePanels/hotkeys) documentation (keep in mind, any modifications made to midnight commander can be saved for next session in Options>Save setup) 
 
 - `←,↓,↑,→`: Move through directory. Enabled in Lynx-like motion setting 
 - `alt + .`: Toggle hidden files display 
