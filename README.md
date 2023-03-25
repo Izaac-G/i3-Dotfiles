@@ -43,7 +43,7 @@ For modifications and further keybindings I suggest visiting .config/i3/
 - `mod + shift + minus`: Add focused window to scratchpads 
 - `mod + m`: Open midnight commander scratchpad 
 - `mod + p`: Open Python scratchpad (Python makes a great calculator!) 
-- `mod + t`: Open Alacritty terminal, useful for hidden background terminal  
+- `mod + a`: Open Alacritty, useful for hidden background terminal  
 
 
 ### NeoVim keybindings

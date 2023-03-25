@@ -23,7 +23,7 @@ bindsym $mod+minus scratchpad show
 
 bindsym $mod+m [title="fm"] scratchpad show; [instance="fm"] 
 bindsym $mod+p [title="pycalc"] scratchpad show; [instance="pycalc"]
-bindsym $mod+t [title="alacterm"] scratchpad show; [instance="alacterm"] 
+bindsym $mod+a [title="alacterm"] scratchpad show; [instance="alacterm"] 
 
 exec --no-startup-id alacritty -t fm -e mc
 exec --no-startup-id alacritty -t pycalc -e python3 -I
