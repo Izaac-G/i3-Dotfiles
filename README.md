@@ -14,6 +14,7 @@ Howdy, here are some simple configs for software that I use when I jump into an 
 - [Bash](https://www.gnu.org/software/bash/manual/bash.html) - Most used shell in the world, simple and POSIX-compliant
 - [Midnight Commander](https://github.com/MidnightCommander/mc) - Industry standard command line file manager
 - [Tmux](https://github.com/tmux/tmux/wiki) - Terminal multiplexer for managing terminal sessions
+- [GNU Stow](https://www.gnu.org/software/stow) - Symlink farm manager which simplifies the process of creating and maintaining symlinks for configuration files
 
 ## Key Bindings
 
