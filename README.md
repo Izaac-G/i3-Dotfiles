@@ -16,9 +16,8 @@ Howdy, here are some simple configs for software that I use when I jump into an 
 - [Tmux](https://github.com/tmux/tmux/wiki) - Terminal multiplexer for managing terminal sessions
 - [GNU Stow](https://www.gnu.org/software/stow) - Symlink farm manager which simplifies the process of creating and maintaining symlinks for configuration files
 
-## Key Bindings
+## i3 Key Bindings
 
-### i3wm keybindings
 For modifying or adding to these keybindings hop over to .config/i3
 - `mod + enter`: Open a new terminal
 - `mod + d`: Open Rofi in drun mode(used to search for and run applications)
